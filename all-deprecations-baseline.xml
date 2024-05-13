@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<files version="1">
+ <file path="tests/DeprecationThrowerTest.php">
+  <line number="18" hash="bd8b65ffbc62397935075fece74e5bd3b39851e1">
+   <issue><![CDATA[This test deprecation from test]]></issue>
+  </line>
+  <line number="20" hash="4269c5e02ecbacbf4aef528456df7b55e1d2574d">
+   <issue><![CDATA[Non silenced deprecation from test]]></issue>
+  </line>
+ </file>
+ <file path="src/DeprecationThrower.php">
+  <line number="21" hash="9cbcc56699f946d9f2a08f85c8b2531297095d60">
+   <issue><![CDATA[Since test-package 1.0: This is deprecated from thrower]]></issue>
+  </line>
+  <line number="37" hash="9ad00bf433a20862b260d6003d750a75097666a5">
+   <issue><![CDATA[This is another deprecation from thrower]]></issue>
+  </line>
+  <line number="43" hash="d438c1ce9092444f703ec01f90ee6f72cad399f1">
+   <issue><![CDATA[Non silenced deprecation from thrower]]></issue>
+  </line>
+ </file>
+</files>
